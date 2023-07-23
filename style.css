@@ -19,7 +19,9 @@ header {
 
 header h2 {
     margin-bottom: 15px;
-    font-size: 28px;
+    font-size: 38px;
+    letter-spacing: 3px;
+    color: crimson;
 }
 
 header p {
@@ -28,7 +30,9 @@ header p {
     padding: 10px;
     border-bottom: 5px solid coral;
 }
-
+.picture {
+    margin-bottom: 5px;
+}
 .picture img {
     width: 100%;
     height: 100%;
@@ -50,3 +54,17 @@ header p {
     gap: 5px;
 }
 
+.third-row {
+    display: flex;
+    gap: 5px;
+}
+
+.third-row > div {
+    flex: 1;
+}
+
+.third-subpart {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+}

@@ -68,3 +68,34 @@ header p {
     grid-template-columns: repeat(2, 1fr);
     gap: 5px;
 }
+
+
+@media screen and (max-width: 576px){
+    header p {
+        width: 80%;
+
+    }
+    .second-row {
+        flex-direction: column;
+    }
+    .third-row {
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+    header p {
+        width: 80%;
+
+    }
+    .second-row {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .second-row-subpart{
+        display: none;
+    }
+    .third-row {
+        flex-direction: column;
+    }
+}

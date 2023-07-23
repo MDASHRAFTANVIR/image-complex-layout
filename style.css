@@ -28,3 +28,8 @@ header p {
     padding: 10px;
     border-bottom: 5px solid coral;
 }
+
+.picture img {
+    width: 100%;
+    height: 400px;
+}
